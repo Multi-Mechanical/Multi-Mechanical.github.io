@@ -57,6 +57,8 @@ textarea{min-height:90px;resize:vertical}
 footer{padding:36px 0;color:var(--steel);font-size:15px}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.notice{background:var(--red);color:#fff;padding:14px 0;font-weight:500;line-height:1.4}
+.notice strong{font:800 22px "Barlow Condensed",Impact,sans-serif;letter-spacing:.02em;margin-right:6px;text-transform:uppercase}
 </style>
 </head>
 <body>
@@ -72,6 +74,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 </header>
 
 <main id="top">
+  <div class="notice"><div class="wrap"><strong>Drop-off appointments only.</strong> We do not have a waiting room, so plan to leave your vehicle with us. Book an 8am morning drop-off or a night-before drop-off.</div></div>
   <div class="hero">
     <div class="wrap">
       <div>
@@ -94,8 +97,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
         <div><h3>Diagnostics</h3><p>Check engine light, strange noises, rough running.</p></div>
         <div><h3>Brakes</h3><p>Pads, rotors, calipers, and brake fluid.</p></div>
         <div><h3>Oil and maintenance</h3><p>Oil changes, fluids, filters, and scheduled service.</p></div>
-        <div><h3>Suspension and steering</h3><p>Shocks, struts, and control arms.</p></div>
+        <div><h3>Suspension and steering</h3><p>Shocks, struts, control arms, and steering parts.</p></div>
         <div><h3>Engine and transmission</h3><p>Repairs, leaks, belts, and cooling system work.</p></div>
+        <div><h3>Exhaust and welding fabrication</h3><p>Exhaust work along with welding and metal fabrication.</p></div>
+        <div><h3>Cabinet sandblasting</h3><p>Sandblasting for metal parts, done in our large blast cabinet.</p></div>
         <div><h3>Everything else</h3><p>If it is on your vehicle, ask us. Multi-Mechanical is in the name for a reason.</p></div>
       </div>
     </div>
@@ -115,7 +120,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
   <section id="schedule" class="sched">
     <div class="wrap">
       <h2>Request an appointment</h2>
-      <p class="lead">We are open Monday to Friday, 8am to 5pm. Fill this out and send it to the shop by text, and we will confirm your time with you.</p>
+      <p class="lead">We are open Monday to Friday, 8am to 5pm, and we are a drop-off only shop with no waiting room. Fill this out and send it to the shop by text, and we will confirm your time with you.</p>
       <form id="form">
         <div class="f"><label for="name">Your name</label><input id="name" required autocomplete="name"></div>
         <div class="f"><label for="phone">Phone number</label><input id="phone" type="tel" required autocomplete="tel"></div>
